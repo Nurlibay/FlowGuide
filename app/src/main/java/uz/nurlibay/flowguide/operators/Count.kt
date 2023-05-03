@@ -5,7 +5,7 @@ import kotlinx.coroutines.flow.count
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.runBlocking
 
-fun main() = runBlocking {
+fun main(): Unit = runBlocking {
     val walletListFlow: Flow<List<WalletItemEntity>> = walletList()
     val walletListSize = walletListFlow.count()
     println(walletListSize)

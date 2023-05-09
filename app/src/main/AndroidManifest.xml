@@ -12,7 +12,7 @@
         android:theme="@style/Theme.FlowGuide"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".livedata.LiveDataActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
